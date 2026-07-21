@@ -1,6 +1,6 @@
 # Flash Attention Forward Pass in CUDA
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/](https://colab.research.google.com/drive/15wga9jwDSat06dbjX5823tR8sLNecm61))
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/15wga9jwDSat06dbjX5823tR8sLNecm61#scrollTo=cTxZMTpCGj3s)
 
 **Headline Result:** Our custom Flash Attention forward pass CUDA kernel achieves a **1.37× speedup** over the naive CUDA baseline at a sequence length of 2048 in FP32 precision.
 
