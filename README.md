@@ -38,6 +38,7 @@ Flash Attention restructures the computation by tiling the input matrices $Q, K,
 
 ## Repository Structure
 
+```text
 .
 ├── attn_standard.cu     # Naive CUDA baseline implementation
 ├── flash_attn_fwd.cu    # Tiled Flash Attention forward pass kernel
@@ -49,4 +50,3 @@ Flash Attention restructures the computation by tiling the input matrices $Q, K,
 │   ├── results_table.md # Detailed raw numbers
 │   └── charts/          # Generated latency & memory plots
 └── README.md            # Project overview & documentation
-
