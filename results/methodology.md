@@ -7,3 +7,4 @@
 - **Warmup Runs:** 20 iterations
 - **Timed Runs:** 100 iterations per configuration
 - **Timing Protocol:** `torch.cuda.Event` synchronized timing
+- **Memory Tracking:** `torch.cuda.max_memory_allocated()` capturing full inputs + dynamic intermediate buffers
